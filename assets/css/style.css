@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #DBD6D0;
+}
+
+.header {
+  width: 100%;
+  z-index: 1;
+  margin-top: 0px;
+}
+
+.headStyle {
+  color: #DBD6D0;
+}
+
+.characters {
+  margin-top: 140px;
+  margin-bottom: 0px;
+}
