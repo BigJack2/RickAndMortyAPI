@@ -1,23 +1,70 @@
-* {
-  margin: 0px;
-  padding: 0px;
+/* Variable CSS en Root para estandarizar propiedades genericas*/
+:root {
+  --color1: #262c3a;
+  --color2: #3c3e44;
+  --color3: #ff9800;
+  --color32: #e9a33a;
+  --color4: #f5f5f5;
 }
 
 body {
-  background-color: #DBD6D0;
+  font-family: "Raleway", sans-serif;
+  background-color: var(--color1);
 }
 
-.header {
-  width: 100%;
-  z-index: 1;
-  margin-top: 0px;
+.text-dark {
+  color: var(--color1);
 }
 
-.headStyle {
-  color: #DBD6D0;
+.bg-dark {
+  background-color: var(--color1);
 }
 
-.characters {
-  margin-top: 140px;
-  margin-bottom: 0px;
+.text-secondary {
+  color: var(--color2);
+}
+
+.bg-secondary {
+  background-color: var(--color2);
+}
+
+.text-gray {
+  color: var(--color4);
+}
+
+.bg-gray {
+  background-color: var(--color4);
+}
+
+.text-warning {
+  color: var(--color3);
+}
+
+.font2 {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  cursor: pointer;
+}
+
+.text-link {
+  color: var(--color3);
+  text-decoration: none;
+}
+
+.text-link:hover {
+  color: var(--color32);
+}
+
+.page-link {
+  background-color: var(--color3);
+}
+
+.imgrick {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 79px;
+  height: auto;
 }
